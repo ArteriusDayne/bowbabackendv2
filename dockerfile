@@ -20,4 +20,4 @@ ENV NODE_ENV=production
 ENV PORT=9000
 
 # Start the Medusa backend
-CMD ["yarn", "dev"]
+CMD ["yarn", "start"]
