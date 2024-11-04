@@ -10,7 +10,7 @@ services:
       AUTH_CORS: http://localhost:5173,http://localhost:9000,https://docs.medusajs.com
       JWT_SECRET: supersecret
       COOKIE_SECRET: supersecret
-      DB_NAME: bowbashop
+      DB_NAME: bowbadb2
       DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@streaming/${POSTGRES_DB}
       REDIS_URL: redis://:${POSTGRES_PASSWORD}@streaming:6379
     ports:
