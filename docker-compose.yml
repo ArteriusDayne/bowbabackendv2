@@ -1,0 +1,17 @@
+services:
+  backend:
+    container_name: "bowba-backend"
+    build:
+      context: ./
+    environment:
+      MEDUSA_ADMIN_ONBOARDING_TYPE: nextjs
+      STORE_CORS: http://localhost:8000,https://docs.medusajs.com
+      ADMIN_CORS: http://localhost:5173,http://localhost:9000,https://docs.medusajs.com
+      AUTH_CORS: http://localhost:5173,http://localhost:9000,https://docs.medusajs.com
+      JWT_SECRET: supersecret
+      COOKIE_SECRET: supersecret
+      DB_NAME: bowbashop
+      DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@streaming/${POSTGRES_DB}
+      REDIS_URL: redis://:Bergkamp10@streaming:6379
+    ports:
+      - "9000:9000"
