@@ -12,6 +12,6 @@ services:
       COOKIE_SECRET: supersecret
       DB_NAME: bowbashop
       DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@streaming/${POSTGRES_DB}
-      REDIS_URL: redis://:Bergkamp10@streaming:6379
+      REDIS_URL: redis://:${POSTGRES_PASSWORD}@streaming:6379
     ports:
       - "9000:9000"
