@@ -27,7 +27,7 @@
     "@medusajs/framework": "^2.0.0",
     "@medusajs/medusa": "^2.0.0",
     "@mikro-orm/core": "6.3.13",
-    "@mikro-orm/knex": "5.9.7",
+    "@mikro-orm/knex": "6.3.13",
     "@mikro-orm/migrations": "6.3.13",
     "@mikro-orm/postgresql": "5.9.7",
     "@tanstack/react-query": "^5.59.0",
