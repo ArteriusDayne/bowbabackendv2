@@ -8365,13 +8365,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"awilix@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "awilix@npm:8.0.1"
+"awilix@npm:^12.0.3":
+  version: 12.0.3
+  resolution: "awilix@npm:12.0.3"
   dependencies:
     camel-case: "npm:^4.1.2"
-    fast-glob: "npm:^3.2.12"
-  checksum: 10/631ab27e0ad1afb41dc5f685a3eb5d6f7c3494de2418f271544336a8a8ddd1e2e3eab423b001e47e68a7f2c1fd3238a453d19acf06a4c1f12bc3c4730336679b
+    fast-glob: "npm:^3.3.2"
+  checksum: 10/064b30852f9f9d3d3978b4fd5dc7c5d68228f670d2d389722ce525c0dc5afced8409d0d806c008f6f5867a21985e3595f51808d79b44e219ca3ccb7487f80b01
   languageName: node
   linkType: hard
 
@@ -10289,7 +10289,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.2":
+"fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.2":
   version: 3.3.2
   resolution: "fast-glob@npm:3.3.2"
   dependencies:
@@ -12629,7 +12629,7 @@ __metadata:
     "@types/node": "npm:^20.0.0"
     "@types/react": "npm:^18.3.2"
     "@types/react-dom": "npm:^18.2.25"
-    awilix: "npm:^8.0.1"
+    awilix: "npm:^12.0.3"
     eslint: "npm:^9.12.0"
     jest: "npm:^29.7.0"
     lodash: "npm:^4.17.21"
