@@ -14062,15 +14062,15 @@ __metadata:
   linkType: hard
 
 "react-dropzone@npm:^14.2.3":
-  version: 14.3.3
-  resolution: "react-dropzone@npm:14.3.3"
+  version: 14.3.5
+  resolution: "react-dropzone@npm:14.3.5"
   dependencies:
     attr-accept: "npm:^2.2.4"
     file-selector: "npm:^2.1.0"
     prop-types: "npm:^15.8.1"
   peerDependencies:
     react: ">= 16.8 || 18.0.0"
-  checksum: 10/1b2252da25d8684fd0ed4759e293aa3401f94b1bf91325c8c557db97c682500473952e6d24eafe72f5fb7061c72d9456be7a032b8d27a23a95a0df4fda012ca3
+  checksum: 10/6124bacd2138002d721c86c2b507a5c1889cfde73344fe474855a4e2e81fecb2c318edb0ab3333a75fd502fb6da44a6f8e9cdee317ec916331fd520d454e6297
   languageName: node
   linkType: hard
 
