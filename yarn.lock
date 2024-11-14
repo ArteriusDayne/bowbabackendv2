@@ -3765,29 +3765,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mikro-orm/knex@npm:6.3.13":
-  version: 6.3.13
-  resolution: "@mikro-orm/knex@npm:6.3.13"
-  dependencies:
-    fs-extra: "npm:11.2.0"
-    knex: "npm:3.1.0"
-    sqlstring: "npm:2.3.3"
-  peerDependencies:
-    "@mikro-orm/core": ^6.0.0
-    better-sqlite3: "*"
-    libsql: "*"
-    mariadb: "*"
-  peerDependenciesMeta:
-    better-sqlite3:
-      optional: true
-    libsql:
-      optional: true
-    mariadb:
-      optional: true
-  checksum: 10/bd7f843578bef770350556b47045f10e7a3eabef4b493b458041f35f3305b45b9e6f47897baffe959b5345b707654e9743bc97477bbb2f94dc246110ba44d79e
-  languageName: node
-  linkType: hard
-
 "@mikro-orm/knex@npm:6.4.0":
   version: 6.4.0
   resolution: "@mikro-orm/knex@npm:6.4.0"
@@ -3811,16 +3788,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mikro-orm/migrations@npm:6.3.13":
-  version: 6.3.13
-  resolution: "@mikro-orm/migrations@npm:6.3.13"
+"@mikro-orm/migrations@npm:6.4.0":
+  version: 6.4.0
+  resolution: "@mikro-orm/migrations@npm:6.4.0"
   dependencies:
-    "@mikro-orm/knex": "npm:6.3.13"
+    "@mikro-orm/knex": "npm:6.4.0"
     fs-extra: "npm:11.2.0"
     umzug: "npm:3.8.2"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
-  checksum: 10/b6a7e7b1290bfc87a5e7c5b91003f9f8d228bfe6d8cfff78096256f9ae4c9ace0b082b4b97e9ba47ae401bc3e9df92b9a52419b18f48d086c77f63e66d568b3f
+  checksum: 10/28c84f08941b329235a2450e51f8ad310e8ffad338d7ed97c885ab11989eb8c4730112a112bb8fe974a8b634f98627cfce0363262b8b46964d2a1a2cf804169d
   languageName: node
   linkType: hard
 
@@ -12636,7 +12613,7 @@ __metadata:
     "@mikro-orm/cli": "npm:5.9.7"
     "@mikro-orm/core": "npm:6.3.13"
     "@mikro-orm/knex": "npm:6.4.0"
-    "@mikro-orm/migrations": "npm:6.3.13"
+    "@mikro-orm/migrations": "npm:6.4.0"
     "@mikro-orm/postgresql": "npm:6.4.0"
     "@swc/core": "npm:1.5.7"
     "@swc/jest": "npm:^0.2.36"
