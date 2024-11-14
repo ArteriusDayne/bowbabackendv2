@@ -3712,18 +3712,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mikro-orm/core@npm:6.3.13":
-  version: 6.3.13
-  resolution: "@mikro-orm/core@npm:6.3.13"
+"@mikro-orm/core@npm:6.4.0":
+  version: 6.4.0
+  resolution: "@mikro-orm/core@npm:6.4.0"
   dependencies:
     dataloader: "npm:2.2.2"
     dotenv: "npm:16.4.5"
     esprima: "npm:4.0.1"
     fs-extra: "npm:11.2.0"
     globby: "npm:11.1.0"
-    mikro-orm: "npm:6.3.13"
+    mikro-orm: "npm:6.4.0"
     reflect-metadata: "npm:0.2.2"
-  checksum: 10/9d4f7ea6faffb216fb1cd0f035425789f8e186a6f792aa291a308776847cff40e9b903dfde57bf6b3353acca2beefe1b43bba061eac855ca77b6527d9c96f5a3
+  checksum: 10/d94c93fe808ce102a46a75dc67cb1cf3b969ba42f22aa9c8179e3c85bd16e4fccc8a463c5746a8b1d9f72a9c336b7572052572511829e6565e546f919e2ac12b
   languageName: node
   linkType: hard
 
@@ -12634,7 +12634,7 @@ __metadata:
     "@medusajs/medusa": "npm:^2.0.0"
     "@medusajs/test-utils": "npm:^2.0.0"
     "@mikro-orm/cli": "npm:5.9.7"
-    "@mikro-orm/core": "npm:6.3.13"
+    "@mikro-orm/core": "npm:6.4.0"
     "@mikro-orm/knex": "npm:6.4.0"
     "@mikro-orm/migrations": "npm:6.3.13"
     "@mikro-orm/postgresql": "npm:6.4.0"
@@ -12708,10 +12708,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mikro-orm@npm:6.3.13":
-  version: 6.3.13
-  resolution: "mikro-orm@npm:6.3.13"
-  checksum: 10/99909602a0c380462413897ded2629d84bebcd2d1a2f8447a9d3bc53354eadec20768711d85093bca597d4efee01c8c68feb7ad833ed40759167e7f0ba41d4bc
+"mikro-orm@npm:6.4.0":
+  version: 6.4.0
+  resolution: "mikro-orm@npm:6.4.0"
+  checksum: 10/50181a4d3727e951573ef19dcb90af95da945f312f1ec15915c486f652d241333b9c160ad9616c3483a2c57359f2a3ed0015755c606d6ef34cbc462b9fc74929
   languageName: node
   linkType: hard
 
