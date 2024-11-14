@@ -3788,6 +3788,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mikro-orm/knex@npm:6.4.0":
+  version: 6.4.0
+  resolution: "@mikro-orm/knex@npm:6.4.0"
+  dependencies:
+    fs-extra: "npm:11.2.0"
+    knex: "npm:3.1.0"
+    sqlstring: "npm:2.3.3"
+  peerDependencies:
+    "@mikro-orm/core": ^6.0.0
+    better-sqlite3: "*"
+    libsql: "*"
+    mariadb: "*"
+  peerDependenciesMeta:
+    better-sqlite3:
+      optional: true
+    libsql:
+      optional: true
+    mariadb:
+      optional: true
+  checksum: 10/8db473dddab9b11637175f44e3195c74cf39419ab08d000830eada2461b8923574a138b3e3b2dea220305a737e436840aca6539b0b90fba8685253bccd996689
+  languageName: node
+  linkType: hard
+
 "@mikro-orm/migrations@npm:6.3.13":
   version: 6.3.13
   resolution: "@mikro-orm/migrations@npm:6.3.13"
@@ -12626,7 +12649,7 @@ __metadata:
     "@medusajs/test-utils": "npm:^2.0.0"
     "@mikro-orm/cli": "npm:5.9.7"
     "@mikro-orm/core": "npm:6.3.13"
-    "@mikro-orm/knex": "npm:6.3.13"
+    "@mikro-orm/knex": "npm:6.4.0"
     "@mikro-orm/migrations": "npm:6.3.13"
     "@mikro-orm/postgresql": "npm:5.9.7"
     "@swc/core": "npm:1.5.7"
