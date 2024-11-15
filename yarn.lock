@@ -7561,13 +7561,13 @@ __metadata:
   linkType: hard
 
 "@tanstack/react-query@npm:^5.28.14, @tanstack/react-query@npm:^5.59.0":
-  version: 5.60.2
-  resolution: "@tanstack/react-query@npm:5.60.2"
+  version: 5.60.4
+  resolution: "@tanstack/react-query@npm:5.60.4"
   dependencies:
     "@tanstack/query-core": "npm:5.59.20"
   peerDependencies:
     react: ^18 || ^19
-  checksum: 10/d33f81f78a0a324ec4cadfa23461c361039b60a3a27f0d7a6cc6489d7d612cea23472aacd31eac269a2dae1bbba91fcc96c43e3a2864941c41bb6c40028effff
+  checksum: 10/1808755f7ab1c4ff10ed6b69ba6f95c97916dd1c3f8ac1f04d1164c8fdd0b3a1b828b7dd25aec2cde6aee445055a4ab918b03783bcc51482b98ea97bebaadae9
   languageName: node
   linkType: hard
 
