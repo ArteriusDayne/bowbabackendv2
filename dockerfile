@@ -4,10 +4,12 @@ FROM node:21
 # Set the working directory
 WORKDIR /app
 
-# Copy package.json and install dependencies
+# Copy package.json and yarn.lock first to leverage Docker cache
 COPY package.json yarn.lock ./
+
+# Install npm and dependencies
 RUN npm install -g npm@10.9.0
-RUN yarn install
+RUN yarn install --frozen-lockfile
 
 # Copy the rest of the application files
 COPY . .
