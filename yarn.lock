@@ -3788,6 +3788,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mikro-orm/knex@npm:6.4.2":
+  version: 6.4.2
+  resolution: "@mikro-orm/knex@npm:6.4.2"
+  dependencies:
+    fs-extra: "npm:11.2.0"
+    knex: "npm:3.1.0"
+    sqlstring: "npm:2.3.3"
+  peerDependencies:
+    "@mikro-orm/core": ^6.0.0
+    better-sqlite3: "*"
+    libsql: "*"
+    mariadb: "*"
+  peerDependenciesMeta:
+    better-sqlite3:
+      optional: true
+    libsql:
+      optional: true
+    mariadb:
+      optional: true
+  checksum: 10/9aac38c06e024dc6bf870c49ed5c2b5bd766ca91f52e01b25aa60d57caf5de8cdb6adfa09334c16ba1697dd66e6cbdacd41514bb583f797868265d51070228ce
+  languageName: node
+  linkType: hard
+
 "@mikro-orm/migrations@npm:6.4.0":
   version: 6.4.0
   resolution: "@mikro-orm/migrations@npm:6.4.0"
@@ -3801,18 +3824,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mikro-orm/postgresql@npm:6.4.0":
-  version: 6.4.0
-  resolution: "@mikro-orm/postgresql@npm:6.4.0"
+"@mikro-orm/postgresql@npm:6.4.2":
+  version: 6.4.2
+  resolution: "@mikro-orm/postgresql@npm:6.4.2"
   dependencies:
-    "@mikro-orm/knex": "npm:6.4.0"
+    "@mikro-orm/knex": "npm:6.4.2"
     pg: "npm:8.13.1"
     postgres-array: "npm:3.0.2"
     postgres-date: "npm:2.1.0"
     postgres-interval: "npm:4.0.2"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
-  checksum: 10/ddb30c40baaaec5a153a4494c61d061121e2b98b9a35c66c32ac36aee2c1b1d95c6a1a2a7a6c6d8328c01850d2bb6ae33c8691e19def0f4187cd2f1dc4cb116a
+  checksum: 10/b64aca897e2050f913ed2d86ae4a6c391a192f57400bf60fae5cea7125b9d014b5b486c9eeb6f5023c3bd4b61f313d6abac64c41c6a51fb05498084acb8d1a43
   languageName: node
   linkType: hard
 
@@ -12614,7 +12637,7 @@ __metadata:
     "@mikro-orm/core": "npm:6.4.0"
     "@mikro-orm/knex": "npm:6.4.0"
     "@mikro-orm/migrations": "npm:6.4.0"
-    "@mikro-orm/postgresql": "npm:6.4.0"
+    "@mikro-orm/postgresql": "npm:6.4.2"
     "@swc/core": "npm:1.5.7"
     "@swc/jest": "npm:^0.2.36"
     "@tanstack/eslint-plugin-query": "npm:^5.58.1"
