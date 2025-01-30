@@ -3788,6 +3788,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mikro-orm/knex@npm:6.4.5":
+  version: 6.4.5
+  resolution: "@mikro-orm/knex@npm:6.4.5"
+  dependencies:
+    fs-extra: "npm:11.3.0"
+    knex: "npm:3.1.0"
+    sqlstring: "npm:2.3.3"
+  peerDependencies:
+    "@mikro-orm/core": ^6.0.0
+    better-sqlite3: "*"
+    libsql: "*"
+    mariadb: "*"
+  peerDependenciesMeta:
+    better-sqlite3:
+      optional: true
+    libsql:
+      optional: true
+    mariadb:
+      optional: true
+  checksum: 10/48750a56f830bd3d7d2b027f7bb6aec747ddf4e813250573361563ebe9394b5e49feac0e6c7e2d898b3120d08bc34362bb9c54b50d303a164ca1cf084e72e405
+  languageName: node
+  linkType: hard
+
 "@mikro-orm/migrations@npm:6.4.0":
   version: 6.4.0
   resolution: "@mikro-orm/migrations@npm:6.4.0"
@@ -3801,18 +3824,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mikro-orm/postgresql@npm:6.4.0":
-  version: 6.4.0
-  resolution: "@mikro-orm/postgresql@npm:6.4.0"
+"@mikro-orm/postgresql@npm:6.4.5":
+  version: 6.4.5
+  resolution: "@mikro-orm/postgresql@npm:6.4.5"
   dependencies:
-    "@mikro-orm/knex": "npm:6.4.0"
+    "@mikro-orm/knex": "npm:6.4.5"
     pg: "npm:8.13.1"
     postgres-array: "npm:3.0.2"
     postgres-date: "npm:2.1.0"
     postgres-interval: "npm:4.0.2"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
-  checksum: 10/ddb30c40baaaec5a153a4494c61d061121e2b98b9a35c66c32ac36aee2c1b1d95c6a1a2a7a6c6d8328c01850d2bb6ae33c8691e19def0f4187cd2f1dc4cb116a
+  checksum: 10/c9fe61d4424806cd97159f29400d2018823b972ca02f1d34ff4b17dc4ea0a880b959ddac9e558667b836f9471cb6bbb63238e3c9229d8ee39b4a6b93cec9df0b
   languageName: node
   linkType: hard
 
@@ -10600,6 +10623,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:11.3.0":
+  version: 11.3.0
+  resolution: "fs-extra@npm:11.3.0"
+  dependencies:
+    graceful-fs: "npm:^4.2.0"
+    jsonfile: "npm:^6.0.1"
+    universalify: "npm:^2.0.0"
+  checksum: 10/c9fe7b23dded1efe7bbae528d685c3206477e20cc60e9aaceb3f024f9b9ff2ee1f62413c161cb88546cc564009ab516dec99e9781ba782d869bb37e4fe04a97f
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^10.0.0":
   version: 10.1.0
   resolution: "fs-extra@npm:10.1.0"
@@ -12614,7 +12648,7 @@ __metadata:
     "@mikro-orm/core": "npm:6.4.0"
     "@mikro-orm/knex": "npm:6.4.0"
     "@mikro-orm/migrations": "npm:6.4.0"
-    "@mikro-orm/postgresql": "npm:6.4.0"
+    "@mikro-orm/postgresql": "npm:6.4.5"
     "@swc/core": "npm:1.5.7"
     "@swc/jest": "npm:^0.2.36"
     "@tanstack/eslint-plugin-query": "npm:^5.58.1"
